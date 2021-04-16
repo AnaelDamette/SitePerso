@@ -1,0 +1,83 @@
+//import de mon scss
+
+@import "./variable.scss";
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Merienda:wght@700&family=New+Tegomin&display=swap");
+
+* {
+    font-family: "Courgette", Open;
+    object-fit: cover;
+    background-color: $primary;
+}
+.bg-darker {
+    background-color: $primary;
+}
+.bg-opacity-4 {
+    opacity: 0.95;
+}
+.body {
+    background-image: url("./TextFond.jpg");
+    background-attachment : fixed;
+    background-position : center;
+    background-repeat : no-repeat;
+}
+i {
+    font-size: 28px;
+    color: $text-primary;
+}
+.bg-primaire {
+    background-color: $primary;
+}
+.mt6 {
+    height: 50px; 
+}
+.mt-6 {
+    margin-top : 6rem;
+    margin-bottom: 6rem;
+
+}
+.bg-dark,
+.navbar-dark .navbar-nav .nav-link,
+span,
+.navbar-collapse {
+    background-color: $bg-dark !important;
+}
+.text-primaire {
+    color : $text-primary;
+}
+.text-small {
+    font-size: 16px;
+}
+p,
+strong,
+.nav-link,
+span,
+.dropdown-item,
+.dropdown-menu,
+.navbar-brand
+{
+    font-size: 18px;
+    font-family: arial, sans-serif;
+}
+
+.dropdown-menu {
+    background-color: $primary !important;
+}
+.dropdown-item {
+    color: azure !important;
+    background-color: $primary !important;
+}
+
+.shadow-box {
+    @include shadow-box;
+    
+}
+
+.shadow-text {
+    filter: brightness(1.25);
+    @include shadow-text;
+}
+
+//Modifier le Scss au dessus des imports !!
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-vue/src/index.scss";
