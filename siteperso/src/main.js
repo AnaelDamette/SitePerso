@@ -10,7 +10,7 @@ import { ModalPlugin } from "bootstrap-vue";
 import { CardPlugin } from "bootstrap-vue";
 import { VBScrollspyPlugin } from "bootstrap-vue";
 import { DropdownPlugin, TablePlugin } from "bootstrap-vue";
-import './assets/custom.scss'
+import "./assets/custom.scss";
 Vue.config.productionTip = false;
 
 Vue.use(LayoutPlugin);

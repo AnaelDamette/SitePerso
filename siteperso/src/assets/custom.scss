@@ -5,7 +5,6 @@
 
 * {
     font-family: "Courgette", Open;
-    object-fit: cover;
     background-color: $primary;
 }
 .bg-darker {
@@ -15,10 +14,15 @@
     opacity: 0.95;
 }
 .body {
-    background-image: url("./TextFond.jpg");
+    background-image: url("./TestFond1.jpg");
     background-attachment : fixed;
     background-position : center;
     background-repeat : no-repeat;
+    object-fit: cover;
+}
+.test {
+    max-width: 300px!important;
+    height: 300px;
 }
 i {
     font-size: 28px;
