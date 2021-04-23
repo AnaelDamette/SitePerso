@@ -4,7 +4,7 @@
       Anael Damette <br />
       3 rue de l'Épargne <br />
       88000 ÉPINAL <br />
-      07 77 36 73 94 <br/>
+      damette.anael@gmail.fr
     </p>
   </div>
 </template>

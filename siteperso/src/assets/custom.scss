@@ -1,5 +1,5 @@
 //import de mon scss
-
+@import "./locomotive-scroll.scss";
 @import "./variable.scss";
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Merienda:wght@700&family=New+Tegomin&display=swap");
 
@@ -11,7 +11,36 @@
     background-color: $primary;
 }
 .bg-opacity-4 {
-    opacity: 0.95;
+    background-color: rgba(0,0,0, 0.9);
+}
+.bg-imageFond {
+    background-image: url("./ImageFond3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    @include border-box;
+
+    animation-name: BgImage;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+
+    
+}
+
+@keyframes BgImage {
+    0% {
+        background-image: url(./ImageFond1.jpg);
+    }50% {
+        background-image: url(./ImageFond2.jpg);
+    }100% {
+        background-image: url(./ImageFond3.jpg);
+    }
 }
 .body {
     background-image: url("./TestFond1.jpg");
@@ -19,6 +48,9 @@
     background-position : center;
     background-repeat : no-repeat;
     object-fit: cover;
+}
+.text-titre {
+    color: $text-titre
 }
 .test {
     max-width: 300px!important;
@@ -51,6 +83,14 @@ span,
 .text-small {
     font-size: 16px;
 }
+.hoverNav,
+.dropdown-item,
+.navbar-dark .navbar-bar .nav-link {
+    color: $text-primary!important;
+    &:hover, &:focus {
+        color: $text-primary-hover !important;
+    }
+}
 p,
 strong,
 .nav-link,
@@ -67,7 +107,6 @@ span,
     background-color: $primary !important;
 }
 .dropdown-item {
-    color: azure !important;
     background-color: $primary !important;
 }
 

@@ -1,10 +1,27 @@
 <template>
   <div>
-    <h2 class="text-center text-lg-left">Soft-skills</h2>
-    <p class="text-center text-lg-left">
-      Plein de soft-skill avec des logos vraiment trop génial puis des
-      magnifiques animation de fou !
-    </p>
+    <h2 class="text-center text-titre text-lg-center">Back-end</h2>
+
+    <div class="my-4">
+      <div class="d-flex flex-wrap justify-content-center">
+        <div class="d-flex p-3">
+          <i class="fab fa-node-js"></i>
+          <p class="pl-2">node.js</p>
+        </div>
+
+        <div class="d-flex p-3">
+          <p class="pl-2">Api Rest</p>
+        </div>
+
+        <div class="d-flex p-3">
+          <p class="pl-2">MySQL</p>
+        </div>
+
+        <div class="d-flex p-3">
+          <p class="pl-2">MongoDb</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

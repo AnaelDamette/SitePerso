@@ -6,8 +6,9 @@ $bg-dark: $gray-800 ;
 $secondary: rgb(59, 59, 59);
 $bg-clair: #6b6b6b;
 $bg-gris:#494949;
-$text-primary:#e7e7e1;
+$text-primary:#d3d3d3;
 $text-primary-hover:#f3f3f3 ;
+$text-titre: #feefbf;
 $text-grey: #4d4d4d;
 $text-grey-hover: #383838;
 $text-black: black;
@@ -22,6 +23,14 @@ $text-black: black;
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+@mixin border-box {    
+    border-bottom: solid 10vh rgba(0,0,0,0.9);
+    border-bottom: 10px, rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
 }
 
 @mixin shadow-text {

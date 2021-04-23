@@ -1,10 +1,19 @@
 <template>
-  <div class="p-3 shadow-box ">
-    <h1 class="text-primaire text-center">Mes projets réalisés</h1>
-    <div class="row justify-content-center my-5">
+  <div class="p-3 shadow-box">
+    <h1 class="text-titre pt-5 text-center bg-transparent">
+      Mes projets accomplis
+    </h1>
+    <div class="row justify-content-center my-5 py-5">
       <div
-        class="col-12 col-xl-4 col-md-5 m-md-3 test bg-dark rounded shadow-box m-lg-3 my-4 w-100"
-      ></div>
+        class="col-12 col-xl-4 col-md-5 m-md-3 d-flex test bg-dark rounded shadow-box m-lg-3 my-4 w-100"
+      >
+        <img
+          src="../assets/ChouetteAgence.png"
+          alt="Site Web de la Chouette Agence"
+          class="h-100"
+        />
+        <p class="bg-dark text-primaire text-center align-item-center">Je met ici un magnifique texte pour explique viteuf le projet</p>
+      </div>
       <div
         class="col-12 col-xl-4 col-md-5 m-md-3 test bg-dark rounded shadow-box m-lg-3 my-4 w-100"
       ></div>
