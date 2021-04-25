@@ -1,0 +1,141 @@
+//import de mon scss
+@import "./locomotive-scroll.scss";
+@import "./variable.scss";
+@import "./bgPortfolio.scss";
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Merienda:wght@700&family=New+Tegomin&display=swap");
+
+* {
+    font-family: "Courgette", Open;
+    background-color: $primary;
+}
+.bg-darker {
+    background-color: $primary;
+}
+.bg-opacity-4 {
+    background-color: rgba(0,0,0, 0.9);
+}
+.bg-opacity-2 {
+    background-color: rgba(0,0,0, 0.95);
+    @include shadow-box;
+}
+.bg-imageFond {
+    background-image: url("./ImageFond3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    @include border-box;
+
+    animation-name: BgImage;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+
+    
+}
+
+@keyframes BgImage {
+    0% {
+        background-image: url(./ImageFond1.jpg);
+    }50% {
+        background-image: url(./ImageFond2.jpg);
+    }100% {
+        background-image: url(./ImageFond3.jpg);
+    }
+}
+.body {
+    background-image: url("./TestFond1.jpg");
+    background-attachment : fixed;
+    background-position : center;
+    background-repeat : no-repeat;
+    object-fit: cover;
+}
+.text-titre {
+    color: $text-titre
+}
+.test {
+    max-width: 300px!important;
+    height: 300px;
+}
+ .filigraneMesRealisation {
+     font-weight: bold;
+     position: absolute;
+     top: 56%;
+     left:15px;
+     right: 15px;
+ }
+i {
+    font-size: 28px;
+    color: $text-primary;
+}
+.bg-primaire {
+    background-color: $primary;
+}
+.mt6 {
+    height: 50px; 
+}
+.mt-6 {
+    margin-top : 6rem;
+    margin-bottom: 6rem;
+
+}
+.bg-dark,
+.navbar-dark .navbar-nav .nav-link,
+span,
+.navbar-collapse {
+    background-color: $bg-dark !important;
+}
+.text-primaire {
+    color : $text-primary;
+}
+.text-small {
+    font-size: 16px;
+}
+.hoverNav,
+.dropdown-item,
+.navbar-dark .navbar-bar .nav-link {
+    color: $text-primary!important;
+    &:hover, &:focus {
+        color: $text-primary-hover !important;
+        text-decoration:none;
+
+    }
+}
+p,
+a,
+strong,
+.nav-link,
+span,
+.dropdown-item,
+.dropdown-menu,
+.navbar-brand
+{
+    font-size: 18px;
+    font-family: arial, sans-serif;
+}
+
+.dropdown-menu {
+    background-color: $primary !important;
+}
+.dropdown-item {
+    background-color: $primary !important;
+}
+
+.shadow-box {
+    @include shadow-box;
+    
+}
+
+.shadow-text {
+    filter: brightness(1.25);
+    @include shadow-text;
+}
+
+//Modifier le Scss au dessus des imports !!
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-vue/src/index.scss";

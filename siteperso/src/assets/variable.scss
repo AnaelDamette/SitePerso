@@ -1,0 +1,47 @@
+
+
+$gray-800 : #303030;
+$primary: #1f1f1f;
+$bg-dark: $gray-800 ;
+$secondary: rgb(59, 59, 59);
+$bg-clair: #cccbcb;
+$bg-gris:#494949;
+$text-primary:#d3d3d3;
+$text-primary-hover:#f3f3f3 ;
+$text-titre: #feefbf;
+$text-grey: #4d4d4d;
+$text-grey-hover: #383838;
+$text-black: rgb(58, 58, 58);
+$check: rgb(0, 158, 0);
+$progress : rgb(212, 138, 0);
+
+
+@mixin shadow-box-hover {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+@mixin shadow-box {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+@mixin border-box {    
+    border-bottom: solid 10vh rgba(0,0,0,0.9);
+    border-bottom: 10px, rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+@mixin shadow-text {
+    -webkit-text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) ;
+    -moz-text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) ;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1);
+}
+@mixin shadow-text-hover {
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) ;
+    -webkit-text-shadow: 0 3px 8px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) ;
+    -moz-text-shadow: 0 3px 8px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) ;
+}
