@@ -15,7 +15,8 @@
     background-color: rgba(0,0,0, 0.9);
 }
 .bg-opacity-2 {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0, 0.95);
+    @include shadow-box;
 }
 .bg-imageFond {
     background-image: url("./ImageFond3.jpg");
@@ -60,6 +61,13 @@
     max-width: 300px!important;
     height: 300px;
 }
+ .filigraneMesRealisation {
+     font-weight: bold;
+     position: absolute;
+     top: 56%;
+     left:15px;
+     right: 15px;
+ }
 i {
     font-size: 28px;
     color: $text-primary;

@@ -6,14 +6,15 @@
         data-scroll
         data-scroll-speed="1"
         data-scroll-direction="vertical"
-        class="p-2 bg-card col-12 col-xl-4 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+        class="p-2 bg-card col-12 col-xl-4 col-md-5 mx-2 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
-        <div
-          class="bg-reservia bg-card bg-light d-flex justify-content-center align-items-end shadow-box"
-        >
+        <div class="bg-reservia bg-card bg-light">
           <i class="check fas fa-check-circle"></i>
           <p
-            class="text-primaire text-center p-3 rounded bg-opacity-4 w-100 align-item-end"
+            data-scroll
+            data-scroll-speed="0.5"
+            data-scroll-direction="vertical"
+            class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
           >
             Site Reservia
           </p>
@@ -23,14 +24,15 @@
         data-scroll
         data-scroll-speed="1"
         data-scroll-direction="vertical"
-        class="p-2 bg-card col-12 col-xl-4 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+        class="p-2 bg-card col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
-        <div
-          class="bg-ohmyfood bg-card bg-light d-flex justify-content-center align-items-end shadow-box"
-        >
+        <div class="bg-ohmyfood bg-card bg-light">
           <i class="check fas fa-check-circle"></i>
           <p
-            class="text-primaire text-center p-3 rounded bg-opacity-4 w-100 align-item-end"
+            data-scroll
+            data-scroll-speed="0.5"
+            data-scroll-direction="vertical"
+            class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
           >
             Site Ohmyfood
           </p>
@@ -40,14 +42,15 @@
         data-scroll
         data-scroll-speed="1"
         data-scroll-direction="vertical"
-        class="p-2 bg-card col-12 col-xl-4 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+        class="p-2 bg-card col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
-        <div
-          class="bg-chouetteagence bg-card bg-light d-flex justify-content-center align-items-end shadow-box"
-        >
+        <div class="bg-chouetteagence bg-card bg-light">
           <i class="check fas fa-check-circle"></i>
           <p
-            class="text-primaire text-center p-3 rounded bg-opacity-4 w-100 align-item-end"
+            data-scroll
+            data-scroll-speed="0.5"
+            data-scroll-direction="vertical"
+            class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
           >
             Site La chouette agence
           </p>
@@ -57,32 +60,33 @@
         data-scroll
         data-scroll-speed="1"
         data-scroll-direction="vertical"
-        class="p-2 bg-card col-12 col-xl-4 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+        class="p-2 bg-card col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
-        <div
-          class="bg-orinoco bg-card bg-light d-flex justify-content-center align-items-end shadow-box"
-        >
+        <div class="bg-orinoco bg-card bg-light">
           <i class="check fas fa-check-circle"></i>
           <p
-            class="text-primaire text-center p-3 rounded bg-opacity-4 w-100 align-item-end"
+            data-scroll
+            data-scroll-speed="0.5"
+            data-scroll-direction="vertical"
+            class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
           >
             Site Orinoco
           </p>
         </div>
-
       </div>
       <div
         data-scroll
         data-scroll-speed="1"
         data-scroll-direction="vertical"
-        class="p-2 bg-card col-12 col-xl-4 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+        class="p-2 bg-card col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
-        <div
-          class="bg-sopekocko bg-card bg-light d-flex justify-content-center align-items-end shadow-box"
-        >
+        <div class="bg-sopekocko bg-card bg-light">
           <i class="check fas fa-check-circle"></i>
           <p
-            class="text-primaire text-center p-3 rounded bg-opacity-4 w-100 align-item-end"
+            data-scroll
+            data-scroll-speed="0.5"
+            data-scroll-direction="vertical"
+            class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
           >
             Site So pekocko
           </p>
@@ -92,14 +96,15 @@
         data-scroll
         data-scroll-speed="1"
         data-scroll-direction="vertical"
-        class="p-2 bg-card col-12 col-xl-4 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+        class="p-2 bg-card col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
-        <div
-          class="bg-groupomania bg-card bg-light d-flex justify-content-center align-items-end shadow-box"
-        >
+        <div class="bg-groupomania bg-card bg-light">
           <i class="check fas fa-check-circle"></i>
           <p
-            class="text-primaire text-center p-3 rounded bg-opacity-4 w-100 align-item-end"
+            data-scroll
+            data-scroll-speed="0.5"
+            data-scroll-direction="vertical"
+            class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
           >
             Site Groupomania
           </p>
@@ -109,14 +114,15 @@
         data-scroll
         data-scroll-speed="1"
         data-scroll-direction="vertical"
-        class="p-2 bg-card col-12 col-xl-4 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+        class="p-2 bg-card col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
-        <div
-          class="bg-archedugrog bg-card bg-light d-flex justify-content-center align-items-end shadow-box"
-        >
-          <i class="progres fas fa-spinner"></i>
+        <div class="bg-archedugrog bg-card bg-light">
+          <i class="progres fas fa-circle-notch"></i>
           <p
-            class="text-primaire text-center p-3 rounded bg-opacity-4 w-100 align-item-end"
+            data-scroll
+            data-scroll-speed="0.5"
+            data-scroll-direction="vertical"
+            class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
           >
             Site l'Arche du Grog
           </p>

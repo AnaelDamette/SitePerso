@@ -7,7 +7,7 @@
     max-width: 300px !important;
     min-height: 300px;
     width: 100%;
-    background-color: #7d7d7d;
+    background-color: #f8f9fa;
 }
 
 .check {
@@ -16,6 +16,16 @@
 
 .progres {
     color: $progress;
+}
+
+
+@keyframes WorkInProgress {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .check,
@@ -35,6 +45,45 @@
 .bg-groupomania,
 .bg-archedugrog {
     border-radius: 1em;
+    transform: scale(1);
+    .fa-check-circle {
+        transform: rotate(-360deg);
+        transition-duration: 1s;
+    }
+    .fa-circle-notch {    
+        animation-name: WorkInProgress;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+        animation-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+    }
+    &:hover,
+    &:focus {
+        animation-name: scale;
+        animation-duration: 0.6s;
+        animation-fill-mode: both;
+        animation-direction: alternate;
+        animation-timing-function: ease-out;
+        .fa-check-circle {
+            transform: rotate(360deg);
+            transition-duration: 1s;
+        }
+        
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 .bg-reservia {
     background-image: url("./CadreReserviaPhone.png");
