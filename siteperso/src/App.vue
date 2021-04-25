@@ -23,7 +23,7 @@
     <div
       data-scroll-section
       id="ancreProjet"
-      class="container bg-opacity-4 p-0 my-5"
+      class="container-fluid bg-opacity-4 p-0 my-5"
     >
       <Portfolio
         data-scroll

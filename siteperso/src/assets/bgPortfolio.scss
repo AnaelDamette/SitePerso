@@ -1,0 +1,65 @@
+@import "./variable.scss";
+
+.bg-card {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 300px !important;
+    min-height: 300px;
+    width: 100%;
+    background-color: #7d7d7d;
+}
+
+.check {
+    color: $check;
+}
+
+.progres {
+    color: $progress;
+}
+
+.check,
+.progres {
+    font-size: 2.5em;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: transparent;
+}
+
+.bg-reservia,
+.bg-ohmyfood,
+.bg-chouetteagence,
+.bg-orinoco,
+.bg-sopekocko,
+.bg-groupomania,
+.bg-archedugrog {
+    border-radius: 1em;
+}
+.bg-reservia {
+    background-image: url("./CadreReserviaPhone.png");
+}
+
+.bg-ohmyfood {
+    background-image: url("./CadreOhmyfoodPhone.png");
+}
+
+.bg-chouetteagence {
+    background-image: url("./CadreChouetteagencePhone.png");
+}
+
+.bg-orinoco {
+    background-image: url("./CadreOrinocoPhone.png");
+}
+
+.bg-sopekocko {
+    background-image: url("./CadreSopekockoPhone.png");
+}
+
+.bg-groupomania {
+    background-image: url("./CadreGroupomaniaPhone.png");
+}
+
+.bg-archedugrog {
+    background-image: url("./CadreArcheDuGrogPhone.png");
+}

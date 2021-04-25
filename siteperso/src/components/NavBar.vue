@@ -6,14 +6,10 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" class="justify-content-end" is-nav>
-        <b-navbar-nav class="d-flex justify-content-right">
-        </b-navbar-nav>
-        <b-navbar-nav>
-          <b-nav-item-dropdown dropleft text="Index" variant="dark" class="hoverNav bg-dark">
-            <b-dropdown-item class="hoverNav" data-scroll-to href="#ancreCompetence">Compétences</b-dropdown-item>
-            <b-dropdown-item class="hoverNav" data-scroll-to href="#ancreProjet">Projet Accompli</b-dropdown-item>
-            <b-dropdown-item class="hoverNav" data-scroll-to href="#ancreReseauSocial">Réseaux Sociaux</b-dropdown-item>
-          </b-nav-item-dropdown>
+        <b-navbar-nav class="d-flex bg-transparent justify-content-right">
+          <a class="hoverNav text-center px-3" href="#ancreCompetence" data-scroll-to>Compétences</a>
+          <a class="hoverNav text-center px-3" href="#ancreProjet" data-scroll-to>Mes réalisations</a>
+          <a class="hoverNav text-center px-3" href="#ancreReseauSocial" data-scroll-to>Réseaux Sociaux</a>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -23,7 +19,8 @@
 <script>
 export default {
   name: "NavBar",
-  props: {},
+  props: {
+  },
 };
 </script>
 
