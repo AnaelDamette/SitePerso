@@ -9,57 +9,55 @@
     >
       <DvlpWeb data-scroll data-scroll-speed="2" class="mt-6 p-0 py-5" />
     </div>
-      <transition name="bounce">
-        <div
-          class="overlay"
-          v-show="this.$store.state.modale.overlay"
-          @click="
-            toggleAllModale()
-          "
-        ></div>
-      </transition>
-      <transition name="bounce">
-        <ModaleReservia
-          class="bg-darker modale"
-          v-if="this.$store.state.modale.modaleReservia"
-        />
-      </transition>
-      <transition name="bounce">
-        <ModaleOhmyfood
-          class="bg-darker modale"
-          v-if="this.$store.state.modale.modaleOhmyfood"
-        />
-      </transition>
-      <transition name="bounce">
-        <ModaleChouetteAgence
-          class="bg-darker modale"
-          v-if="this.$store.state.modale.modaleChouetteAgence"
-        />
-      </transition>
-      <transition name="bounce">
-        <ModaleOrinoco
-          class="bg-darker modale"
-          v-if="this.$store.state.modale.modaleOrinoco"
-        />
-      </transition>
-      <transition name="bounce">
-        <ModaleSopekocko
-          class="bg-darker modale"
-          v-if="this.$store.state.modale.modaleSopekocko"
-        />
-      </transition>
-      <transition name="bounce">
-        <ModaleGroupomania
-          class="bg-darker modale"
-          v-if="this.$store.state.modale.modaleGroupomania"
-        />
-      </transition>
-      <transition name="bounce">
-        <ModaleArcheDuGrog
-          class="bg-darker modale"
-          v-if="this.$store.state.modale.modaleArcheDuGrog"
-        />
-      </transition>
+    <transition name="bounce">
+      <div
+        class="overlay"
+        v-show="this.$store.state.modale.overlay"
+        @click="toggleAllModale()"
+      ></div>
+    </transition>
+    <transition name="bounce">
+      <ModaleReservia
+        class="bg-darker modale"
+        v-if="this.$store.state.modale.modaleReservia"
+      />
+    </transition>
+    <transition name="bounce">
+      <ModaleOhmyfood
+        class="bg-darker modale"
+        v-if="this.$store.state.modale.modaleOhmyfood"
+      />
+    </transition>
+    <transition name="bounce">
+      <ModaleChouetteAgence
+        class="bg-darker modale"
+        v-if="this.$store.state.modale.modaleChouetteAgence"
+      />
+    </transition>
+    <transition name="bounce">
+      <ModaleOrinoco
+        class="bg-darker modale"
+        v-if="this.$store.state.modale.modaleOrinoco"
+      />
+    </transition>
+    <transition name="bounce">
+      <ModaleSopekocko
+        class="bg-darker modale"
+        v-if="this.$store.state.modale.modaleSopekocko"
+      />
+    </transition>
+    <transition name="bounce">
+      <ModaleGroupomania
+        class="bg-darker modale"
+        v-if="this.$store.state.modale.modaleGroupomania"
+      />
+    </transition>
+    <transition name="bounce">
+      <ModaleArcheDuGrog
+        class="bg-darker modale"
+        v-if="this.$store.state.modale.modaleArcheDuGrog"
+      />
+    </transition>
 
     <div
       id="ancreCompetence"
@@ -133,10 +131,9 @@ export default {
     };
   },
   methods: {
-   
     toggleAllModale() {
-      store.commit("allModale")
-    }
+      store.commit("allModale");
+    },
   },
   mounted() {
     this.scroll = new LocomotiveScroll({

@@ -27,5 +27,4 @@ export default {
   name: "DvlpWeb",
 };
 </script>
-<style scoped>
-</style>
+<style scoped></style>

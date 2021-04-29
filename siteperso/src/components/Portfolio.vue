@@ -148,34 +148,33 @@ export default {
     ...mapState(["modale"]),
   },
   methods: {
-     toggleModaleReservia() {
+    toggleModaleReservia() {
       this.$store.commit("modaleReservia");
-      this.$store.commit("ouvertureOverlay")
+      this.$store.commit("ouvertureOverlay");
     },
     toggleModaleOhmyfood() {
       this.$store.commit("modaleOhmyfood");
-      this.$store.commit("ouvertureOverlay")
+      this.$store.commit("ouvertureOverlay");
     },
     toggleModaleChouetteAgence() {
       this.$store.commit("modaleChouetteAgence");
-      this.$store.commit("ouvertureOverlay")
+      this.$store.commit("ouvertureOverlay");
     },
     toggleModaleOrinoco() {
       this.$store.commit("modaleOrinoco");
-      this.$store.commit("ouvertureOverlay")
+      this.$store.commit("ouvertureOverlay");
     },
     toggleModaleSopekocko() {
       this.$store.commit("modaleSopekocko");
-      this.$store.commit("ouvertureOverlay")
+      this.$store.commit("ouvertureOverlay");
     },
     toggleModaleGroupomania() {
       this.$store.commit("modaleGroupomania");
-      this.$store.commit("ouvertureOverlay")
+      this.$store.commit("ouvertureOverlay");
     },
     toggleModaleArcheDuGrog() {
       this.$store.commit("modaleArcheDuGrog");
-      this.$store.commit("ouvertureOverlay")
-      
+      this.$store.commit("ouvertureOverlay");
     },
   },
 };

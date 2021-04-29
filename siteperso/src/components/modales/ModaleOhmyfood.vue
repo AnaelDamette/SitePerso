@@ -1,7 +1,14 @@
 <template>
-  <div class="overflow-auto">
+  <div
+    class="overflow-auto d-flex flex-column"
+    data-scroll
+    data-scroll-speed="2"
+  >
     <h1 class="text-titre text-center pt-5">Site Web Ohmyfood</h1>
-    <i class="far fa-times-circle fermeModale iconeModale" @click="toggleAllModale()"></i>
+    <i
+      class="far fa-times-circle fermeModale iconeModale"
+      @click="toggleAllModale()"
+    ></i>
     <figure class="d-flex flex-column align-items-center zindex">
       <img
         src="../../assets/MockupOhmyfood.png"
@@ -32,8 +39,16 @@
         </p>
       </caption>
     </figure>
-    <i class="far fa-arrow-alt-circle-left iconeModale arrowModaleRight" @click="toggleNext()"></i>
-    <i class="far fa-arrow-alt-circle-right iconeModale arrowModaleLeft" @click="togglePrevious()"></i>
+    <div class="d-flex justify-content-between px-3 pb-3">
+      <i
+        class="far fa-arrow-alt-circle-left iconeModale"
+        @click="toggleNext()"
+      ></i>
+      <i
+        class="far fa-arrow-alt-circle-right iconeModale"
+        @click="togglePrevious()"
+      ></i>
+    </div>
   </div>
 </template>
 
@@ -42,21 +57,18 @@ export default {
   name: "ModaleOhmyfood",
   methods: {
     toggleAllModale() {
-      this.$store.commit('allModale')
+      this.$store.commit("allModale");
     },
     toggleNext() {
       this.$store.commit("modaleOhmyfood"),
-      this.$store.commit("modaleChouetteAgence")
+        this.$store.commit("modaleChouetteAgence");
     },
-    togglePrevious(){
+    togglePrevious() {
       this.$store.commit("modaleOhmyfood"),
-      this.$store.commit("modaleReservia")
+        this.$store.commit("modaleReservia");
     },
   },
 };
 </script>
 
-<style scoped>
-
-</style>
-
+<style scoped></style>

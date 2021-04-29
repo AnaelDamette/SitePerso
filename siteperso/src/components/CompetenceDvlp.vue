@@ -1,8 +1,6 @@
 <template>
   <div>
-    <h2 class="text-center text-titre text-lg-center">
-      Front-end
-    </h2>
+    <h2 class="text-center text-titre text-lg-center">Front-end</h2>
     <div class="d-flex flex-column text-center">
       <div class="my-4">
         <div class="d-flex flex-wrap justify-content-center">

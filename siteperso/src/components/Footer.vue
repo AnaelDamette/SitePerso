@@ -2,9 +2,7 @@
   <div class="bg-dark">
     <div class="shadow-box">
       <ReseauxSociaux class="container-fluid bg-darker" />
-      <div
-        class="container-fluid justify-content-between d-lg-flex  bg-dark"
-      >
+      <div class="container-fluid justify-content-between d-lg-flex bg-dark">
         <TextePresentation class="bg-dark p-lg-5 col-12 col-lg-4" />
         <Coordonnees class="bg-dark p-lg-5 col-12 col-lg-4" />
       </div>

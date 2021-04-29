@@ -1,5 +1,7 @@
 <template>
-  <div class="mt-6 rounded bg-transparent shadow-box d-flex flex-column justify-content-center">
+  <div
+    class="mt-6 rounded bg-transparent shadow-box d-flex flex-column justify-content-center"
+  >
     <h1 class="bg-transparent text-center text-titre pt-5 mb-5">Compétences</h1>
     <div class="d-md-flex bg-transparent justify-content-center mb-4">
       <CompetenceDvlp
