@@ -1,10 +1,10 @@
 <template>
   <div class="overflow-auto">
-    <h1 class="text-titre text-center pt-5">Site Web Réservia</h1>
-    <i class="far fa-times-circle fermeModale iconeModale"></i>
+    <h1 class="text-titre text-center pt-5">Site Web l'Arche Du Grog</h1>
+    <i class="far fa-times-circle fermeModale iconeModale" @click="toggleAllModale()"></i>
     <figure class="d-flex flex-column align-items-center zindex">
       <img
-        src="../../assets/MockupReservia.png"
+        src="../../assets/MockupArcheDuGrog.png"
         alt="Un Mock-up du site Web Reservia"
         class="imageModale"
       />
@@ -32,14 +32,27 @@
         </p>
       </caption>
     </figure>
-    <i class="far fa-arrow-alt-circle-left iconeModale arrowModaleRight"></i>
-    <i class="far fa-arrow-alt-circle-right iconeModale arrowModaleLeft"></i>
+    <i class="far fa-arrow-alt-circle-left iconeModale arrowModaleRight" @click="toggleNext()"></i>
+    <i class="far fa-arrow-alt-circle-right iconeModale arrowModaleLeft" @click="togglePrevious()"></i>
   </div>
 </template>
 
 <script>
 export default {
-  name: "ModaleType",
+  name: "ModaleArcheDuGrog",
+  methods: {
+    toggleAllModale() {
+      this.$store.commit("allModale")
+    },
+    toggleNext() {
+      this.$store.commit("modaleArcheDuGrog"),
+      this.$store.commit("modaleReservia")
+    },
+    togglePrevious(){
+      this.$store.commit("modaleArcheDuGrog"),
+      this.$store.commit("modaleGroupomania")
+    },
+  },
 };
 </script>
 
