@@ -31,7 +31,7 @@
             class="hoverNav text-center px-3"
             href="#ancreReseauSocial"
             data-scroll-to
-            >Réseaux Sociaux</a
+            >Contact</a
           >
         </b-navbar-nav>
       </b-collapse>

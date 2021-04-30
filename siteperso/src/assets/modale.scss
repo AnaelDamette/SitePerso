@@ -19,12 +19,12 @@
   }
   
 .imageModale {
-    object-fit: cover;
-    height: 80%;
+    object-fit: contain;
+    height: 50%;
     width: 100%;
   }
   .captionModale {
-    height: 20%;
+    max-height: 45%;
     width: 100%;
   }
   
@@ -66,13 +66,7 @@
     top: 20px;
     right: 15px;
   }
-  .arrowModaleLeft {
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-  }
-  .arrowModaleRight {
-    position: fixed;
-    bottom: 15px;
-    left: 15px;
+  .zindex {
+    height: 73%;
+    min-height: 78%;
   }

@@ -1,28 +1,29 @@
 <template>
-  <div
-    class="overflow-auto d-flex flex-column"
-    data-scroll
-    data-scroll-speed="2"
-  >
-    <h1 class="text-titre text-center pt-5">Site Web Orinoco</h1>
+  <div class="d-flex flex-column" data-scroll data-scroll-speed="2">
+    <h1 class="text-titre text-center pt-5">Orinoco</h1>
     <i
       class="far fa-times-circle fermeModale iconeModale"
       @click="toggleAllModale()"
     ></i>
-    <figure class="d-flex flex-column align-items-center zindex">
+    <figure class="d-flex flex-column flex-xl-row align-items-center zindex">
       <img
         src="../../assets/MockupOrinoco.png"
         alt="Un Mock-up du site Web Reservia"
         class="imageModale"
       />
-      <h3 class="text-center text-primaire">
-        Construire un site E-commerce Pour Orinoco
-      </h3>
-      <caption class="captionModale text-center">
+      <div class="col-xl-6 overflow-auto captionModale">
+        <h3 class="text-center text-primaire p-3">
+          Construire un site E-commerce Pour Orinoco
+        </h3>
         <p class="p-4 text-primaire">
-          Il s'agit du projet n°5 du parcour de développeur web d'openClassroom.
+          Il s'agit du projet n°5 du parcour de développeur web d'OpenClassroom.
+          J'ai réalisé le frontEnd de l'application Web. Le but était de créer
+          une panier grâce à des objets contenu dans la base de donée mongoDB et
+          d'envoyer une commande factice ainsi que de recevoir et d'afficher le
+          numéro de commande. Le site à été réaliser en html, sass, bootstrap et
+          javascript.
         </p>
-      </caption>
+      </div>
     </figure>
     <div class="d-flex justify-content-between px-3 pb-3">
       <i
