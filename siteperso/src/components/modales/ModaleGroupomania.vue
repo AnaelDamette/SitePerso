@@ -17,8 +17,8 @@
         </h3>
         <p class="p-4 text-primaire">
           Création d'un réseau social d'entreprise, ce projet comporte aussi
-          bien la partie backEnd que la partie frontEnd.<br>Il a été réalisé avec
-          Node.js et Express pour la partie backEnd et avec Vue.js pour la
+          bien la partie backEnd que la partie frontEnd.<br />Il a été réalisé
+          avec Node.js et Express pour la partie backEnd et avec Vue.js pour la
           partie frontEnd.
         </p>
       </div>

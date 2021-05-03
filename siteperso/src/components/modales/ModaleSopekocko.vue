@@ -16,8 +16,8 @@
           API sécurisée pour Sopekocko
         </h3>
         <p class="p-4 text-primaire">
-          Il s'agit du projet n°6 du parcours de developpeur web d'OpenClassroom.
-          J'ai réalisé la partie Backend à l'aide de Node.js,
+          Il s'agit du projet n°6 du parcours de developpeur web
+          d'OpenClassroom. J'ai réalisé la partie Backend à l'aide de Node.js,
           Express, MongoDB et Mongoose. L'API respecte le RGPD ainsi que les
           standards OWASP.
         </p>

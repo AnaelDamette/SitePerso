@@ -17,11 +17,12 @@
         </h3>
         <p class="p-4 text-primaire">
           Il s'agit du projet n°5 du parcours de développeur web
-          d'OpenClassroom. J'ai réalisé le frontEnd de l'application Web :<br>
+          d'OpenClassroom. J'ai réalisé le frontEnd de l'application Web :<br />
           Création de panier grâce à des objets contenu dans la base de données
-          mongoDB.<br> Envoie d'une commande factice ainsi que de recevoir et
-          d'affichage du numéro de commande. <br>Le site a été réalisé avec les langages html,
-          sass, bootstrap et javascript.
+          mongoDB.<br />
+          Envoie d'une commande factice ainsi que de recevoir et d'affichage du
+          numéro de commande. <br />Le site a été réalisé avec les langages
+          html, sass, bootstrap et javascript.
         </p>
       </div>
     </figure>

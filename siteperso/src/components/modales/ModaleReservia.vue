@@ -17,8 +17,8 @@
         </h3>
 
         <p class="p-4 text-primaire">
-          Création d'une page web responsive à l'aide d'une maquette. <br>Cette page
-          a été créée sans framework.
+          Création d'une page web responsive à l'aide d'une maquette.
+          <br />Cette page a été créée sans framework.
         </p>
       </div>
     </figure>

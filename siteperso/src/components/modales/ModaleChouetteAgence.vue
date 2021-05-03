@@ -16,9 +16,9 @@
           Optimisation du site la Chouette Agence
         </h3>
         <p class="text-primaire">
-          Réalisation  d'audit pour la Chouette Agence ainsi que
-          proposition d'amélioration en terme de SEO
-          ("Seach Engine Optimisation") ou en terme d'accéssibilité.
+          Réalisation d'audit pour la Chouette Agence ainsi que proposition
+          d'amélioration en terme de SEO ("Seach Engine Optimisation") ou en
+          terme d'accéssibilité.
         </p>
       </div>
     </figure>
