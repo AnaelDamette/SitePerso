@@ -13,15 +13,15 @@
       />
       <div class="col-xl-6 overflow-auto captionModale">
         <h3 class="text-center text-primaire p-3">
-          Construire un site E-commerce Pour Orinoco
+          Site E-commerce pour Orinoco
         </h3>
         <p class="p-4 text-primaire">
-          Il s'agit du projet n°5 du parcour de développeur web d'OpenClassroom.
-          J'ai réalisé le frontEnd de l'application Web. Le but était de créer
-          une panier grâce à des objets contenu dans la base de donée mongoDB et
-          d'envoyer une commande factice ainsi que de recevoir et d'afficher le
-          numéro de commande. Le site à été réaliser en html, sass, bootstrap et
-          javascript.
+          Il s'agit du projet n°5 du parcours de développeur web
+          d'OpenClassroom. J'ai réalisé le frontEnd de l'application Web :<br>
+          Création de panier grâce à des objets contenu dans la base de données
+          mongoDB.<br> Envoie d'une commande factice ainsi que de recevoir et
+          d'affichage du numéro de commande. <br>Le site a été réalisé avec les langages html,
+          sass, bootstrap et javascript.
         </p>
       </div>
     </figure>

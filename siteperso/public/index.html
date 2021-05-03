@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <SCRIPT LANGUAGE="JavaScript"> 
+      //Disable 
+      function disableselect(e){ 
+      return false 
+      } 
+      
+      function reEnable(){ 
+      return true 
+      } 
+      
+      //if IE4+ 
+      document.onselectstart=new Function ("return false") 
+      document.oncontextmenu=new Function ("return false") 
+      //if NS6 
+      if (window.sidebar){ 
+      document.onmousedown=disableselect 
+      document.onclick=reEnable 
+      } 
+      //
+      </script> 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">

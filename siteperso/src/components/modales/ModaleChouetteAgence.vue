@@ -16,8 +16,8 @@
           Optimisation du site la Chouette Agence
         </h3>
         <p class="text-primaire">
-          Il s'agit ici de réaliser un audit pour la Chouette Agence ainsi que
-          de proposer 10 points d'amélioration que ce soit en terme de SEO
+          Réalisation  d'audit pour la Chouette Agence ainsi que
+          proposition d'amélioration en terme de SEO
           ("Seach Engine Optimisation") ou en terme d'accéssibilité.
         </p>
       </div>

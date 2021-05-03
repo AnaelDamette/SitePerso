@@ -16,8 +16,8 @@
           Création du site Vitrine l'Arche Du Grog
         </h3>
         <p class="p-4 text-primaire">
-          Site Web pour la team l'Arche Du Grog autour de l'univers de Sea of
-          thieves. Le site est en cours de réalisation, il est créer avec Vue.js
+          Site Web réalisé pour l'équipe l'Arche Du Grog autour de l'univers du jeu vidéo Sea of
+          thieves. Le site est en cours de réalisation, il est crée avec Vue.js
         </p>
       </div>
     </figure>

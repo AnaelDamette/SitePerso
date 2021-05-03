@@ -4,7 +4,6 @@
       Anael Damette <br />
       3 rue de l'Épargne <br />
       88000 ÉPINAL <br />
-      damette.anael@gmail.fr
     </p>
   </div>
 </template>

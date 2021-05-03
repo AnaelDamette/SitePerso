@@ -12,12 +12,12 @@
         class="imageModale"
       />
       <div class="col-xl-6 overflow-auto captionModale">
-        <h3 class="text-primaire text-center p-3">
-          Création animation css pour ohmyfood
+        <h3 class="text-primaire p-3">
+          Animation css pour Ohmyfood
         </h3>
         <p class="p-4 text-primaire">
-          Réalisation à partir de maquettes de plusieurs pages avec animation.
-          Le projet a été réalisé en html et Sass sans aucun framework.
+          Réalisation de plusieurs pages avec des animations à partir de maquettes.<br>
+          Le projet a été réalisé en langages html et Sass sans aucun framework.
         </p>
       </div>
     </figure>

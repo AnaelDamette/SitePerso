@@ -13,13 +13,13 @@
       />
       <div class="col-xl-6 overflow-auto captionModale">
         <h3 class="text-primaire text-center p-3">
-          Création d'un réseau social d'entreprise pour Groumpomania
+          Création d'un réseau social d'entreprise pour Groupomania
         </h3>
         <p class="p-4 text-primaire">
           Création d'un réseau social d'entreprise, ce projet comporte aussi
-          bien la partie backEnd que la partie frontEnd. Il a été réalisé avec
+          bien la partie backEnd que la partie frontEnd.<br>Il a été réalisé avec
           Node.js et Express pour la partie backEnd et avec Vue.js pour la
-          partie frontEnd
+          partie frontEnd.
         </p>
       </div>
     </figure>

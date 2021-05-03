@@ -2,7 +2,7 @@
   <div class="p-3 shadow-box">
     <h1 class="text-titre pt-5 text-center bg-transparent">Mes réalisations</h1>
     <div class="row justify-content-center my-5 py-5">
-      <div
+      <button
         @click="toggleModaleReservia()"
         data-scroll
         data-scroll-speed="1"
@@ -20,8 +20,8 @@
             Site Reservia
           </p>
         </div>
-      </div>
-      <div
+      </button>
+      <button
         data-scroll
         data-scroll-speed="1"
         data-scroll-direction="vertical"
@@ -39,8 +39,8 @@
             Site Ohmyfood
           </p>
         </div>
-      </div>
-      <div
+      </button>
+      <button
         data-scroll
         data-scroll-speed="1"
         data-scroll-direction="vertical"
@@ -58,8 +58,8 @@
             Site La chouette agence
           </p>
         </div>
-      </div>
-      <div
+      </button>
+      <button
         data-scroll
         data-scroll-speed="1"
         data-scroll-direction="vertical"
@@ -77,8 +77,8 @@
             Site Orinoco
           </p>
         </div>
-      </div>
-      <div
+      </button>
+      <button
         data-scroll
         data-scroll-speed="1"
         data-scroll-direction="vertical"
@@ -96,8 +96,8 @@
             Site So pekocko
           </p>
         </div>
-      </div>
-      <div
+      </button>
+      <button
         data-scroll
         data-scroll-speed="1"
         data-scroll-direction="vertical"
@@ -115,8 +115,8 @@
             Site Groupomania
           </p>
         </div>
-      </div>
-      <div
+      </button>
+      <button
         data-scroll
         data-scroll-speed="1"
         data-scroll-direction="vertical"
@@ -134,7 +134,7 @@
             Site l'Arche du Grog
           </p>
         </div>
-      </div>
+      </button>
     </div>
   </div>
 </template>
