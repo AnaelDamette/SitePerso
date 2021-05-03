@@ -17,6 +17,9 @@
 *::-webkit-scrollbar {
     display:none;
 }
+button {
+    border:none;
+}
 .bg-darker {
     background-color: $primary;
 }

@@ -1,10 +1,13 @@
 <template>
   <div class="d-flex flex-column" data-scroll data-scroll-speed="2">
     <h1 class="text-titre text-center pt-5">l'Arche Du Grog</h1>
-    <i
-      class="far fa-times-circle fermeModale iconeModale"
-      @click="toggleAllModale()"
-    ></i>
+    <button
+    @click="toggleAllModale()">
+      <i
+        class="far fa-times-circle fermeModale iconeModale"
+        
+      ></i>
+    </button>
     <figure class="d-flex flex-column flex-xl-row align-items-center zindex">
       <img
         src="../../assets/MockupArcheDuGrog.png"
@@ -23,14 +26,18 @@
       </div>
     </figure>
     <div class="d-flex justify-content-between px-3 pb-3">
-      <i
-        class="far fa-arrow-alt-circle-left iconeModale"
-        @click="toggleNext()"
-      ></i>
-      <i
-        class="far fa-arrow-alt-circle-right iconeModale"
-        @click="togglePrevious()"
-      ></i>
+      <button @click="toggleNext()">
+        <i
+          class="far fa-arrow-alt-circle-left iconeModale"
+          
+        ></i>
+      </button>
+      <button @click="togglePrevious()">
+        <i
+          class="far fa-arrow-alt-circle-right iconeModale"
+          
+        ></i>
+      </button>
     </div>
   </div>
 </template>

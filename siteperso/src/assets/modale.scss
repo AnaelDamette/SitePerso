@@ -60,6 +60,10 @@
   .iconeModale {
     background-color: transparent;
     font-size: 2em;
+    color: $text-primary;
+    &:hover, &:focus, &:focus-visible {
+      color: $text-primary-hover;
+    }
   }
   .fermeModale {
     position: absolute;
