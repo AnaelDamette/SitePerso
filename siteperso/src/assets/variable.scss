@@ -29,7 +29,6 @@ $progress : rgb(212, 138, 0);
 
 @mixin border-box {    
     border-bottom: solid 10vh rgba(0,0,0,0.9);
-    border-bottom: 10px, rgba(0, 0, 0, 0.8);
     -webkit-box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     -moz-box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 10px 1px 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;

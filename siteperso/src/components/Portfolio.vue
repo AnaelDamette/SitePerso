@@ -121,6 +121,7 @@
         data-scroll-speed="1"
         data-scroll-direction="vertical"
         @click="toggleModaleArcheDuGrog()"
+        id="modale"
         class="p-2 bg-card col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
         <div class="bg-archedugrog bg-card bg-light">
