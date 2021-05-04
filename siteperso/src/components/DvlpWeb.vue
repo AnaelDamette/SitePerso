@@ -10,7 +10,7 @@
         class="w-100 d-flex flex-column bg-transparent justify-content-center align-items-center"
       >
         <p class="bg-transparent pb-2 text-center text-primaire zindex-1">
-          <strong class="bg-transparent">Création de site</strong> internet
+          <strong class="bg-transparent">Création de sites internets
           <br />
           Sites vitrines, Sites Marchands
         </p>

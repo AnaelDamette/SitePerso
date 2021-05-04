@@ -10,7 +10,7 @@
         ><p hidden>Profil Twitter</p></i
       ></a
     >
-    <a href="mailto:damette.anael@gmail.com" class="pr-5 pl-2 hoverNav"
+    <a href="mailto:contact@anaeldamette.fr" class="pr-5 pl-2 hoverNav"
       ><i class="hovernav fas fa-envelope w-100"
         ><p hidden>Mail Damette Anael</p></i
       ></a
