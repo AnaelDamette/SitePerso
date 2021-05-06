@@ -17,7 +17,7 @@
             data-scroll-direction="vertical"
             class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
           >
-            Site Reservia
+            Reservia
           </p>
         </div>
       </button>
@@ -36,7 +36,7 @@
             data-scroll-direction="vertical"
             class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
           >
-            Site Ohmyfood
+            Ohmyfood
           </p>
         </div>
       </button>
@@ -55,7 +55,7 @@
             data-scroll-direction="vertical"
             class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
           >
-            Site La chouette agence
+            La chouette agence
           </p>
         </div>
       </button>
@@ -74,7 +74,7 @@
             data-scroll-direction="vertical"
             class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
           >
-            Site Orinoco
+            Orinoco
           </p>
         </div>
       </button>
@@ -93,7 +93,7 @@
             data-scroll-direction="vertical"
             class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
           >
-            Site So pekocko
+            So pekocko
           </p>
         </div>
       </button>
@@ -112,7 +112,7 @@
             data-scroll-direction="vertical"
             class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
           >
-            Site Groupomania
+            Groupomania
           </p>
         </div>
       </button>
@@ -132,7 +132,7 @@
             data-scroll-direction="vertical"
             class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
           >
-            Site l'Arche du Grog
+            l'Arche du Grog
           </p>
         </div>
       </button>

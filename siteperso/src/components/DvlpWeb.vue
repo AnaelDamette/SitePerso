@@ -10,9 +10,9 @@
         class="w-100 d-flex flex-column bg-transparent justify-content-center align-items-center"
       >
         <p class="bg-transparent pb-2 text-center text-primaire zindex-1">
-          <strong class="bg-transparent">Création de sites internets
+          <strong class="bg-transparent">Création de Sites Internet
           <br />
-          Sites vitrines, Sites Marchands
+          Sites Vitrines, Sites Marchands
         </p>
         <p class="bg-transparent pt-2 pb-4 text-primaire">
           FullStack : FrontEnd, BackEnd

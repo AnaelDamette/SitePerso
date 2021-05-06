@@ -25,7 +25,7 @@
             class="hoverNav text-center px-3"
             href="#ancreProjet"
             data-scroll-to
-            >Mes réalisations</a
+            >Réalisations</a
           >
           <a
             class="hoverNav text-center px-3"
