@@ -1,5 +1,10 @@
 <template>
-  <div id="app" data-scroll-container class="body">
+  <div
+    id="app"
+    data-scroll-container
+    class="body"
+    v-on:keyup.escape="toggleAllModale()"
+  >
     <NavBar />
     <div><span class="bg-opacity-4 mt6"></span></div>
     <div

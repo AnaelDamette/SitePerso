@@ -35,9 +35,9 @@
     right: 15px;
     background-color: transparent;
 }
-button:hover,
-button:focus,
-button:focus-visible {
+button,
+button,
+button {
     .bg-reservia,
     .bg-ohmyfood,
     .bg-chouetteagence,
@@ -73,6 +73,9 @@ button:focus-visible {
                 transition-duration: 1s;
             }
         }
+    }
+    &:hover, &:focus, &:focus-visible {
+        border: solid 5px $text-titre;
     }
 }
 

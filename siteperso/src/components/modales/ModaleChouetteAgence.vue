@@ -1,11 +1,17 @@
 <template>
   <div class="d-flex flex-column" data-scroll data-scroll-speed="2">
     <h1 class="text-titre text-center pt-5">La Chouette Agence</h1>
-    <i
-      class="far fa-times-circle fermeModale iconeModale"
+    <button
+      class="fermeModale hoverNav"
       @click="toggleAllModale()"
-    ></i>
-    <figure class="d-flex flex-column flex-xl-row align-items-center zindex">
+      v-on:keydown.exact.tab.shift.prevent=""
+      ref="exitBouton"
+    >
+      <i class="far fa-times-circle fermeModale iconeModale"></i>
+    </button>
+    <figure
+      class="d-flex flex-column overflow-hidden flex-xl-row align-items-center zindex"
+    >
       <img
         src="../../assets/MockupChouetteAgence.png"
         alt="Un Mock-up du site Web Reservia"
@@ -18,19 +24,27 @@
         <p class="text-primaire">
           Réalisation d'audit pour la Chouette Agence ainsi que proposition
           d'amélioration en terme de SEO ("Seach Engine Optimisation") ou en
-          terme d'accéssibilité.
+          terme d'accéssibilité. <br />
+          <a
+            class="text-primaire hoverNav"
+            target="_blank"
+            href="https://anaeldamette.github.io/AnaelDamette_4_09_12_2020/"
+            >Visiter La Chouette Agence
+          </a>
         </p>
       </div>
     </figure>
     <div class="d-flex justify-content-between px-3 pb-3">
-      <i
-        class="far fa-arrow-alt-circle-left iconeModale"
+      <button class="hoverNav" @click="togglePrevious()">
+        <i class="far fa-arrow-alt-circle-left iconeModale"></i>
+      </button>
+      <button
+        class="hoverNav"
         @click="toggleNext()"
-      ></i>
-      <i
-        class="far fa-arrow-alt-circle-right iconeModale"
-        @click="togglePrevious()"
-      ></i>
+        v-on:keydown.exact.tab.prevent=""
+      >
+        <i class="far fa-arrow-alt-circle-right iconeModale"></i>
+      </button>
     </div>
   </div>
 </template>
@@ -50,6 +64,9 @@ export default {
       this.$store.commit("modaleChouetteAgence"),
         this.$store.commit("modaleOhmyfood");
     },
+  },
+  mounted() {
+    this.$refs.exitBouton.focus();
   },
 };
 </script>

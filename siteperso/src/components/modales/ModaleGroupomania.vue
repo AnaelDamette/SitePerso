@@ -1,11 +1,17 @@
 <template>
   <div class="d-flex flex-column" data-scroll data-scroll-speed="2">
     <h1 class="text-titre text-center pt-5">Groupomania</h1>
-    <i
-      class="far fa-times-circle fermeModale iconeModale"
+    <button
+      class="fermeModale hoverNav"
       @click="toggleAllModale()"
-    ></i>
-    <figure class="d-flex flex-column flex-xl-row align-items-center zindex">
+      v-on:keydown.exact.tab.shift.prevent=""
+      ref="exitBouton"
+    >
+      <i class="far fa-times-circle fermeModale iconeModale"></i>
+    </button>
+    <figure
+      class="d-flex flex-column overflow-hidden flex-xl-row align-items-center zindex"
+    >
       <img
         src="../../assets/MockupGroupomania.png"
         alt="Un Mock-up du site Web Reservia"
@@ -24,14 +30,16 @@
       </div>
     </figure>
     <div class="d-flex justify-content-between px-3 pb-3">
-      <i
-        class="far fa-arrow-alt-circle-left iconeModale"
+      <button class="hoverNav" @click="togglePrevious()">
+        <i class="far fa-arrow-alt-circle-left iconeModale"></i>
+      </button>
+      <button
+        class="hoverNav"
         @click="toggleNext()"
-      ></i>
-      <i
-        class="far fa-arrow-alt-circle-right iconeModale"
-        @click="togglePrevious()"
-      ></i>
+        v-on:keydown.exact.tab.prevent=""
+      >
+        <i class="far fa-arrow-alt-circle-right iconeModale"></i>
+      </button>
     </div>
   </div>
 </template>
@@ -51,6 +59,9 @@ export default {
       this.$store.commit("modaleGroupomania"),
         this.$store.commit("modaleSopekocko");
     },
+  },
+  mounted() {
+    this.$refs.exitBouton.focus();
   },
 };
 </script>

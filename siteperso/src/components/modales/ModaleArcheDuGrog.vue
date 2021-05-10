@@ -1,10 +1,17 @@
 <template>
   <div class="d-flex flex-column" data-scroll data-scroll-speed="2">
     <h1 class="text-titre text-center pt-5">l'Arche Du Grog</h1>
-    <button @click="toggleAllModale()">
+    <button
+      class="fermeModale hoverNav"
+      @click="toggleAllModale()"
+      v-on:keydown.exact.tab.shift.prevent=""
+      ref="exitBouton"
+    >
       <i class="far fa-times-circle fermeModale iconeModale"></i>
     </button>
-    <figure class="d-flex flex-column flex-xl-row align-items-center zindex">
+    <figure
+      class="d-flex flex-column overflow-hidden flex-xl-row align-items-center zindex"
+    >
       <img
         src="../../assets/MockupArcheDuGrog.png"
         alt="Un Mock-up du site Web Reservia"
@@ -22,10 +29,14 @@
       </div>
     </figure>
     <div class="d-flex justify-content-between px-3 pb-3">
-      <button @click="toggleNext()">
+      <button class="hoverNav" @click="togglePrevious()">
         <i class="far fa-arrow-alt-circle-left iconeModale"></i>
       </button>
-      <button @click="togglePrevious()">
+      <button
+        class="hoverNav"
+        @click="toggleNext()"
+        v-on:keydown.exact.tab.prevent=""
+      >
         <i class="far fa-arrow-alt-circle-right iconeModale"></i>
       </button>
     </div>
@@ -47,6 +58,9 @@ export default {
       this.$store.commit("modaleArcheDuGrog"),
         this.$store.commit("modaleGroupomania");
     },
+  },
+  mounted() {
+    this.$refs.exitBouton.focus();
   },
 };
 </script>
