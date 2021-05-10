@@ -1,76 +1,87 @@
 .overlay {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    z-index: 5;
-  }
-  .modale {
-    position: fixed;
-    top: 7%;
-    left:5%;
-    height: 90%;
-    width: 90%;
-    z-index: 10;
-  }
-  
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+}
+.modale {
+  position: fixed;
+  top: 7%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+  z-index: 10;
+}
+
 .imageModale {
-    object-fit: contain;
-    height: 50%;
-    width: 100%;
-  }
-  .captionModale {
-    max-height: 45%;
-    width: 100%;
-  }
-  
-  .bounce-enter-active {
-    animation: TranslateEnter 1.6s;
-  }
-  .bounce-leave-active {
-    animation: TranslateSortie 1.6s;
-  }
-  @keyframes TranslateEnter {
-    0% {
-      transform: translateX(1000px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0px);
-      opacity: 1;
+  object-fit: contain;
+  height: 50%;
+  width: 100%;
+  overflow: hidden;
+  transition: ease-in-out 1s;
+  z-index: 150;
+  @media (min-width: 1207px) {
+    &:hover,
+    &:focus {
+      transform: scale(2) translateX(11.25vw);
     }
   }
-  @keyframes TranslateSortie {
-    0% {
-      transform: translateX(0px);
-    opacity: 1;  
-    }
-    100% {
-      transform: translatex(-1000px);
-      opacity: 0;
-    }
+}
+.captionModale {
+  max-height: 45%;
+  width: 100%;
+}
+
+.bounce-enter-active {
+  animation: TranslateEnter 1.6s;
+}
+.bounce-leave-active {
+  animation: TranslateSortie 1.6s;
+}
+@keyframes TranslateEnter {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
   }
-  .fixed-center {
-    width: 80%;
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
   }
-  .iconeModale {
-    background-color: transparent;
-    font-size: 2em;
-    color: $text-primary;
-    &:hover, &:focus, &:focus-visible {
-      color: $text-primary-hover;
-    }
+}
+@keyframes TranslateSortie {
+  0% {
+    transform: translateX(0px);
+    opacity: 1;
   }
-  .fermeModale {
-    position: absolute;
-    top: 20px;
-    right: 15px;
+  100% {
+    transform: translatex(-1000px);
+    opacity: 0;
   }
-  .zindex {
-    height: 73%;
-    min-height: 78%;
+}
+.fixed-center {
+  width: 80%;
+}
+.iconeModale {
+  background-color: transparent;
+  font-size: 2em;
+  color: $text-primary;
+  &:hover,
+  &:focus,
+  &:focus-visible {
+    color: $text-primary-hover;
   }
+}
+.fermeModale {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+.zindex {
+  height: 73%;
+  min-height: 78%;
+}
