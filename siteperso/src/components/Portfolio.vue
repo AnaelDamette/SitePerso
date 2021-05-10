@@ -7,7 +7,7 @@
         data-scroll
         data-scroll-speed="1"
         data-scroll-direction="vertical"
-        class="p-2 bg-card col-12 col-xl-4 col-md-5 mx-2 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+        class="p-2 bg-card cardPortFolio col-12 col-xl-4 col-md-5 mx-2 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
         <div class="bg-reservia bg-card bg-light">
           <i class="check fas fa-check-circle"></i>
@@ -26,7 +26,7 @@
         data-scroll-speed="1"
         data-scroll-direction="vertical"
         @click="toggleModaleOhmyfood()"
-        class="p-2 bg-card col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+        class="p-2 bg-card cardPortFolio col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
         <div class="bg-ohmyfood bg-card bg-light">
           <i class="check fas fa-check-circle"></i>
@@ -45,7 +45,7 @@
         data-scroll-speed="1"
         data-scroll-direction="vertical"
         @click="toggleModaleChouetteAgence()"
-        class="p-2 bg-card col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+        class="p-2 bg-card cardPortFolio col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
         <div class="bg-chouetteagence bg-card bg-light">
           <i class="check fas fa-check-circle"></i>
@@ -64,7 +64,7 @@
         data-scroll-speed="1"
         data-scroll-direction="vertical"
         @click="toggleModaleOrinoco()"
-        class="p-2 bg-card col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+        class="p-2 bg-card cardPortFolio col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
         <div class="bg-orinoco bg-card bg-light">
           <i class="check fas fa-check-circle"></i>
@@ -83,7 +83,7 @@
         data-scroll-speed="1"
         data-scroll-direction="vertical"
         @click="toggleModaleSopekocko()"
-        class="p-2 bg-card col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+        class="p-2 bg-card cardPortFolio col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
         <div class="bg-sopekocko bg-card bg-light">
           <i class="check fas fa-check-circle"></i>
@@ -102,7 +102,7 @@
         data-scroll-speed="1"
         data-scroll-direction="vertical"
         @click="toggleModaleGroupomania()"
-        class="p-2 bg-card col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+        class="p-2 bg-card cardPortFolio col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
         <div class="bg-groupomania bg-card bg-light">
           <i class="check fas fa-check-circle"></i>
@@ -122,7 +122,7 @@
         data-scroll-direction="vertical"
         @click="toggleModaleArcheDuGrog()"
         id="modale"
-        class="p-2 bg-card col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+        class="p-2 bg-card cardPortFolio col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
       >
         <div class="bg-archedugrog bg-card bg-light">
           <i class="progres fas fa-circle-notch"></i>

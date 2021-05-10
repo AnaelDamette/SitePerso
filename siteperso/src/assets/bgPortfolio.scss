@@ -45,7 +45,6 @@ button {
     .bg-sopekocko,
     .bg-groupomania,
     .bg-archedugrog {
-        border-radius: 1em;
         transform: scale(1);
         .fa-check-circle {
             transform: rotate(-360deg);
@@ -74,9 +73,10 @@ button {
             }
         }
     }
-    &:hover, &:focus, &:focus-visible {
-        border: solid 5px $text-titre;
-    }
+    
+}
+.cardPortFolio:focus, .cardPortFolio:focus-visible {
+    border: solid 5px $text-titre;
 }
 
 @keyframes scale {
