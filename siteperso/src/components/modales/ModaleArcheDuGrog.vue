@@ -24,8 +24,15 @@
         <p class="p-4 text-primaire">
           Site Web réalisé pour l'équipe l'Arche Du Grog autour de l'univers du
           jeu vidéo Sea of thieves. Le site est en cours de réalisation, il est
-          crée avec Vue.js
+          crée avec Vue.js <br />
+          <a
+            class="text-primaire hoverNav"
+            target="_blank"
+            href="https://archedugrog.anaeldamette.fr"
+            >Visiter l'Arche Du Grog
+          </a>
         </p>
+        
       </div>
     </figure>
     <div class="d-flex justify-content-between px-3 pb-3">
@@ -52,7 +59,7 @@ export default {
     },
     toggleNext() {
       this.$store.commit("modaleArcheDuGrog"),
-        this.$store.commit("modaleReservia");
+        this.$store.commit("modaleMarinaHantz");
     },
     togglePrevious() {
       this.$store.commit("modaleArcheDuGrog"),

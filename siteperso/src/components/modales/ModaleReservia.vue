@@ -63,7 +63,7 @@ export default {
     },
     togglePrevious() {
       this.$store.commit("modaleReservia"),
-        this.$store.commit("modaleArcheDuGrog");
+        this.$store.commit("modaleMarinaHantz");
     },
   },
   mounted() {

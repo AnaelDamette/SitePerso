@@ -14,7 +14,7 @@
         </div>
 
         <div class="d-flex p-3">
-          <p class="pl-2">MySQL</p>
+          <p class="pl-2">SQL</p>
         </div>
 
         <div class="d-flex p-3">

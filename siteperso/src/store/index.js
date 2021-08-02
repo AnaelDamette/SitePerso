@@ -13,6 +13,7 @@ export default new Vuex.Store({
       modaleGroupomania: false,
       modaleChouetteAgence: false,
       modaleArcheDuGrog: false,
+      modaleMarinaHantz: false,
       modaleOrinoco: false,
       overlay: false,
     },
@@ -45,6 +46,9 @@ export default new Vuex.Store({
     modaleArcheDuGrog() {
       // eslint-disable-next-line
       this.state.modale.modaleArcheDuGrog = !this.state.modale.modaleArcheDuGrog;
+    },
+    modaleMarinaHantz() {
+      this.state.modale.modaleMarinaHantz = !this.state.modale.modaleMarinaHantz;
     },
     modaleOrinoco() {
       this.state.modale.modaleOrinoco = !this.state.modale.modaleOrinoco;

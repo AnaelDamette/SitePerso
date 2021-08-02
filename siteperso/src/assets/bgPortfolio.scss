@@ -44,7 +44,8 @@ button {
     .bg-orinoco,
     .bg-sopekocko,
     .bg-groupomania,
-    .bg-archedugrog {
+    .bg-archedugrog,
+    .bg-marinaHantz {
         transform: scale(1);
         .fa-check-circle {
             transform: rotate(-360deg);
@@ -116,4 +117,7 @@ button {
 
 .bg-archedugrog {
     background-image: url("./PhoneArcheDuGrog.png");
+}
+.bg-marinaHantz {
+    background-image: url("./PhoneMarinaHantz.png") ;
 }

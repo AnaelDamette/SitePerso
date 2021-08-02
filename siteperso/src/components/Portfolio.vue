@@ -136,6 +136,26 @@
           </p>
         </div>
       </button>
+       <button
+        data-scroll
+        data-scroll-speed="1"
+        data-scroll-direction="vertical"
+        @click="toggleModaleMarinaHantz()"
+        id="modale"
+        class="p-2 bg-card cardPortFolio col-12 col-xl-4 mx-2 col-md-5 m-md-3 d-flex justify-content-center rounded m-lg-3 my-4 w-100"
+      >
+        <div class="bg-marinaHantz bg-card bg-light">
+          <i class="progres fas fa-circle-notch"></i>
+          <p
+            data-scroll
+            data-scroll-speed="0.5"
+            data-scroll-direction="vertical"
+            class="text-primaire text-center p-3 rounded bg-opacity-2 filigraneMesRealisation"
+          >
+            Marina Hantz
+          </p>
+        </div>
+      </button>
     </div>
   </div>
 </template>
@@ -175,6 +195,10 @@ export default {
     },
     toggleModaleArcheDuGrog() {
       this.$store.commit("modaleArcheDuGrog");
+      this.$store.commit("ouvertureOverlay");
+    },
+    toggleModaleMarinaHantz() {
+      this.$store.commit("modaleMarinaHantz");
       this.$store.commit("ouvertureOverlay");
     },
   },

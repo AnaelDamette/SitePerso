@@ -63,6 +63,12 @@
         v-if="this.$store.state.modale.modaleArcheDuGrog"
       />
     </transition>
+    <transition name="bounce">
+      <ModaleMarinaHantz
+        class="bg-darker modale"
+        v-if="this.$store.state.modale.modaleMarinaHantz"
+      />
+    </transition>
 
     <div
       id="ancreCompetence"
@@ -108,6 +114,7 @@ import ModaleOrinoco from "./components/modales/ModaleOrinoco";
 import ModaleSopekocko from "./components/modales/ModaleSopekocko";
 import ModaleGroupomania from "./components/modales/ModaleGroupomania";
 import ModaleArcheDuGrog from "./components/modales/ModaleArcheDuGrog";
+import ModaleMarinaHantz from "./components/modales/ModaleMarinaHantz";
 import { mapState } from "vuex";
 import store from "./store/index";
 
@@ -126,6 +133,7 @@ export default {
     ModaleSopekocko,
     ModaleGroupomania,
     ModaleArcheDuGrog,
+    ModaleMarinaHantz,
   },
   computed: {
     ...mapState(["modale"]),
